@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+body {
+  font-family: vazir !important;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #6060ff, #87ceeb);
+    background-repeat:unset;
+}
+button:hover{
+  cursor: pointer;
+  background-color: aqua;;
+}
