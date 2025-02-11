@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'IRANSansMobileNoEn';
+  src: url('../public/assets/fonts/IRANSansWeb(NoEn).ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+* {
+    font-family: 'IRANSansMobileNoEn' ,sans-serif;
+    color: white;
+}
+.login_bg {
+    background: url("../public/assets/images/login/wallpaper.png") no-repeat center/cover;
+}
